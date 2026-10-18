@@ -1,0 +1,36 @@
+# Python / virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Streamlit run cache
+.streamlit/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & raw data dumps
+*.db
+*.sqlite
+*.sqlite3
+data/raw/
+data/*.xlsx
+data/*.zip
+
+# Keep sample synthetic data and documentation in repo
+!data/sample_retail_data.csv
+!data/README.md
+
+# IDE / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
